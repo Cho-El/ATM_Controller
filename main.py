@@ -1,6 +1,5 @@
 import sys
 from database import db
-from models import Pin_Rule
 from api import atm_controller, valid_pin
 if __name__ == '__main__':
     Cash_bin = db # db연동
